@@ -87,7 +87,7 @@ cd web3.py
 virtualenv venv
 . venv/bin/activate
 pip install -r requirements-dev.txt
-pip install -e .[tester]
+pip install -e '.[tester]'
 ```
 
 For different environments, you can set up multiple virtualenvs, like:
