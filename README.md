@@ -79,6 +79,9 @@ sudo apt-get install libssl-dev libffi-dev autoconf automake libtool
 sudo pacman -Sy libsecp256k1
 # ^ This is for ArchLinux system
 
+brew install automake pkg-config libffi gmp
+# For mac you can just do the following
+
 git clone git@github.com:ethereum/web3.py.git
 cd web3.py
 virtualenv venv
